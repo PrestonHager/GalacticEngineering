@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: rgb(212, 83, 203);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background: rgb(240, 122, 235);
+  color: rgb(110, 27, 133);
+  text-shadow: 0.0625em 0.0625em #111;
+}
+.header * {
+  flex: 0;
+}
+.header h1 {
+  flex: 1;
+  margin: 0 1em 0 1em;
+  font-size: 3em;
+}
+
+.content {
+  padding: 1em;
+}
+.content .section {
+  margin: auto;
+  max-width: 70%;
+}
+.content p {
+  font-size: 1.5em;
+}
+
+img.logo {
+  width: 7em;
+  filter: drop-shadow(0.0625em 0.0625em 0.0625em #222);
+}
+
+/*# sourceMappingURL=main.css.map */
